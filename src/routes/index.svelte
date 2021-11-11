@@ -18,7 +18,7 @@
 				body: JSON.stringify({ email, password })
 			});
 			if (browser) {
-				window.location = '/login';
+				window.location.replace('/login');
 			}
 		} catch (error) {
 			console.log(`Error in handleSubmit on / route: ${error}`);

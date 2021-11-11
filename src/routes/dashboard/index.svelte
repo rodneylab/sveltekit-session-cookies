@@ -1,12 +1,16 @@
 <script context="module">
 	export async function load({ fetch }) {
-		const response = await fetch('/api/data.json', {
-			method: 'GET',
-			credentials: 'same-origin'
-		});
-		return {
-			props: { data: { ...(await response.json()) } }
-		};
+		try {
+			const response = await fetch('/api/data.json', {
+				method: 'GET',
+				credentials: 'same-origin'
+			});
+			return {
+				props: { data: { ...(await response.json()) } }
+			};
+		} catch (error) {
+			console.error(`Error in route /dashboard: ${error}`);
+		}
 	}
 </script>
 

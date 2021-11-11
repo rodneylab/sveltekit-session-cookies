@@ -1,5 +1,5 @@
 <script context="module">
-	export async function load({ session }) {
+	export function load({ session }) {
 		if (!session.user) {
 			return {
 				redirect: '/',
