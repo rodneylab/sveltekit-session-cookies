@@ -14,7 +14,6 @@
 	"devDependencies": {
 		"@commitlint/config-conventional": "^14.1.0",
 		"@fontsource/source-sans-pro": "^4.5.0",
-		"@rodneylab/sveltekit-components": "^0.2.4",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.4.1",
 		"cookie": "^0.4.1",
