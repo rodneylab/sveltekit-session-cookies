@@ -12,24 +12,24 @@
 		"prettier:check": "prettier --check --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@commitlint/config-conventional": "^14.1.0",
-		"@fontsource/source-sans-pro": "^4.5.0",
+		"@commitlint/config-conventional": "^15.0.0",
+		"@fontsource/source-sans-pro": "^4.5.1",
 		"@rodneylab/sveltekit-components": "^0.2.5",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.4.1",
 		"cookie": "^0.4.1",
 		"dotenv": "^10.0.0",
-		"eslint": "^8.2.0",
+		"eslint": "^8.5.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.1",
 		"husky": "^7.0.4",
-		"postcss": "^8.3.11",
+		"postcss": "^8.4.5",
 		"postcss-load-config": "^3.1.0",
-		"prettier": "^2.4.1",
-		"prettier-plugin-svelte": "^2.4.0",
-		"svelte": "^3.42.6",
-		"svelte-check": "^2.2.8",
-		"svelte-preprocess": "^4.9.8"
+		"prettier": "^2.5.1",
+		"prettier-plugin-svelte": "^2.5.1",
+		"svelte": "^3.44.3",
+		"svelte-check": "^2.2.11",
+		"svelte-preprocess": "^4.10.1"
 	},
 	"type": "module"
 }
