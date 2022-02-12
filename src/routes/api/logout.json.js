@@ -1,5 +1,5 @@
-export async function get(request) {
-	request.locals.user = null;
+export async function get({ locals }) {
+	locals.user = null;
 
 	return {
 		status: 302,

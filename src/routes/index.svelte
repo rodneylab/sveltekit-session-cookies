@@ -21,7 +21,7 @@
 				window.location.replace('/login');
 			}
 		} catch (error) {
-			console.log(`Error in handleSubmit on / route: ${error}`);
+			console.error(`Error in handleSubmit on / route: ${error}`);
 		}
 	}
 </script>

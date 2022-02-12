@@ -1,18 +1,26 @@
-export function post(request) {
-	const { email, password } = request.body;
+export async function post({ locals, request }) {
+	try {
+		const { email, password } = await request.json();
 
-	function login() {
-		// add logic to authenticate user with external service here
-		console.log('login.json.js', { email, password: !!password });
-		const userLogin = 'svelte-user';
+		function login() {
+			// add logic to authenticate user with external service here
+			console.log('login.json.js', { email, password: !!password });
+			const userLogin = 'svelte-user';
 
-		return userLogin;
+			return userLogin;
+		}
+
+		const user = login();
+		locals.user = user;
+
+		return {
+			status: 200
+		};
+	} catch (error) {
+		const message = `Error in endpoint /api/login.json: ${error}`;
+		return {
+			status: 500,
+			body: message
+		};
 	}
-
-	const user = login();
-	request.locals.user = user;
-
-	return {
-		status: 200
-	};
 }
