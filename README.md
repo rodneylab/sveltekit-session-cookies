@@ -11,7 +11,7 @@
 
 # sveltekit-session-cookies
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/rodneylab/sveltekit-session-cookies)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/rodneylab/sveltekit-session-cookies)
 
 Demo code for handling temporarily caching user input form data using Session Storage to improve user experience in SvelteKit. The code accompanies the <a aria-label="Open Rodney Lab blog post on using Session cookies with Svelte Kit" href="https://rodneylab.com/sveltekit-session-cookies/">video on using the SvelteKit session store with HttpOnly cookies</a>. If you have any questions, please drop a comment at the bottom of that page.
 
