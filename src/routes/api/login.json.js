@@ -1,15 +1,15 @@
 export async function post({ locals, request }) {
+	const { email, password } = await request.json();
+
+	function login() {
+		// add logic to authenticate user with external service here
+		console.log('login.json.js', { email, password: !!password });
+		const userLogin = 'svelte-user';
+
+		return userLogin;
+	}
+
 	try {
-		const { email, password } = await request.json();
-
-		function login() {
-			// add logic to authenticate user with external service here
-			console.log('login.json.js', { email, password: !!password });
-			const userLogin = 'svelte-user';
-
-			return userLogin;
-		}
-
 		const user = login();
 		locals.user = user;
 
