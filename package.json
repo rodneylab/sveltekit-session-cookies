@@ -2,7 +2,7 @@
 	"name": "sveltekit-session-cookie",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev --port 3000",
+		"dev": "svelte-kit dev --port 3030",
 		"build": "svelte-kit build",
 		"preview": "svelte-kit preview --port 3000",
 		"check": "svelte-check",
@@ -12,25 +12,25 @@
 		"prettier:check": "prettier --check --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@commitlint/config-conventional": "^16.2.4",
-		"@fontsource/source-sans-pro": "^4.5.9",
-		"@rodneylab/sveltekit-components": "^0.2.12",
+		"@commitlint/config-conventional": "^17.0.3",
+		"@fontsource/source-sans-pro": "^4.5.10",
+		"@rodneylab/sveltekit-components": "^0.2.13",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.5.1",
-		"commitlint": "^16.2.4",
+		"commitlint": "^17.0.3",
 		"cookie": "^0.5.0",
 		"dotenv": "^16.0.1",
-		"eslint": "^8.15.0",
+		"eslint": "^8.18.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"husky": "^8.0.1",
-		"postcss": "^8.4.13",
-		"postcss-load-config": "^3.1.4",
-		"prettier": "^2.6.2",
+		"postcss": "^8.4.14",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^2.7.1",
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.48.0",
-		"svelte-check": "^2.7.0",
-		"svelte-preprocess": "^4.10.6"
+		"svelte-check": "^2.8.0",
+		"svelte-preprocess": "^4.10.7"
 	},
 	"type": "module"
 }
