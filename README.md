@@ -9,6 +9,9 @@
   SvelteKit Session Cookies
 </h1>
 
+> **Warning**
+> 🚧 **This repo uses a deprecated SvelteKit routing API. See [updated example using current SvelteKit routing API](https://github.com/rodneylab/svelte-login-form). See you there!** 👋🏽
+
 # sveltekit-session-cookies
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/rodneylab/sveltekit-session-cookies)
